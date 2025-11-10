@@ -1,0 +1,4 @@
+%{
+  "color": {:hex, :erlang_color, "1.0.0", "145fe1d2e65c4516e4f03fefca6c2f47ebad5899d978d70382a5cfe643e4ac9e", [:rebar3], [], "hexpm", "6b17e5e589c8fef540574c9ea32b67cec2c8a44283aafe474d6e5818fb3ee038"},
+  "ltest": {:git, "https://github.com/lfex/ltest", "546f349e8cf886b18a94b013ff4aabf37cf7251b", []},
+}
