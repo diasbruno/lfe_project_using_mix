@@ -23,9 +23,9 @@ defmodule MyApp.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mix_lfe, git: "https://github.com/diasbruno/mix_lfe", tag: "mix_with_diasbruno_fork_of_lfe", override: true},
+      {:mix_lfe, path: "./mix_lfe", override: true},
       {:ltest, git: "https://github.com/lfex/ltest", tag: "0.13.11", app: false, override: true},
-      {:lfe, git: "https://github.com/diasbruno/lfe", tag: "ensure-directory-exists-before-writing-beam-file", app: false, override: true}
+      {:lfe, path: "./lfe", app: false, override: true}
     ]
   end
 end
