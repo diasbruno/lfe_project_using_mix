@@ -1,3 +1,6 @@
 [submodule "lfe"]
 	path = lfe
 	url = https://github.com/diasbruno/lfe
+[submodule "mix_lfe"]
+	path = mix_lfe
+	url = https://github.com/diasbruno/mix_lfe
