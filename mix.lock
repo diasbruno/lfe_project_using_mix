@@ -1,4 +1,8 @@
 %{
   "color": {:hex, :erlang_color, "1.0.0", "145fe1d2e65c4516e4f03fefca6c2f47ebad5899d978d70382a5cfe643e4ac9e", [:rebar3], [], "hexpm", "6b17e5e589c8fef540574c9ea32b67cec2c8a44283aafe474d6e5818fb3ee038"},
-  "ltest": {:git, "https://github.com/lfex/ltest", "546f349e8cf886b18a94b013ff4aabf37cf7251b", []},
+  "lfe": {:git, "https://github.com/diasbruno/lfe", "e229c1d166dfb31727107fe8d1520789aba2f5aa", [tag: "ensure-directory-exists-before-writing-beam-file"]},
+  "ltest": {:git, "https://github.com/lfex/ltest", "3e0424897dbe9ccc21f94ae7286016a112a52ab5", [tag: "0.13.11"]},
+  "lutil": {:hex, :lutil, "0.10.0-rc6", "c3a560c9ed8cdc34b689591cf60336981ad4ea6ce299624ba87191d3fffb8da2", [:rebar3], [], "hexpm", "dc26b486e448bfb06ecaaddd5c9ce6c03bd39467058fcd3d8833cc7babbffd58"},
+  "mix_lfe": {:git, "https://github.com/diasbruno/mix_lfe", "dec84aa7b3498e5c3fefefe601eb0aae08e24e01", [tag: "mix_with_diasbruno_fork_of_lfe"]},
+  "rebar3_lfe": {:git, "https://github.com/diasbruno/rebar3_lfe", "e2fbef8cb7706f3d8ae81506de499bfef54a6750", [tag: "paths"]},
 }

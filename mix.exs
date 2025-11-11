@@ -23,12 +23,9 @@ defmodule MyApp.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-      {:mix_lfe, path: "../mix_lfe", override: true},
-      {:rebar3_lfe, path: "../rebar3_lfe", override: true},
-      {:ltest, git: "https://github.com/lfex/ltest", app: false, override: true},
-      {:lfe, path: "../lfe", app: false, override: true}
+      {:mix_lfe, git: "https://github.com/diasbruno/mix_lfe", tag: "mix_with_diasbruno_fork_of_lfe", override: true},
+      {:ltest, git: "https://github.com/lfex/ltest", tag: "0.13.11", app: false, override: true},
+      {:lfe, git: "https://github.com/diasbruno/lfe", tag: "ensure-directory-exists-before-writing-beam-file", app: false, override: true}
     ]
   end
 end
